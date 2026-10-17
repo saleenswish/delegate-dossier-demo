@@ -7,7 +7,7 @@ interface Props {
 
 export default function CountryCard({ country }: Props) {
     return (
-        <div className="overflow-hidden rounded-xl bg-white shadow-xl hover: shadow-sm">
+        <div className="overflow-hidden rounded-xl bg-white shadow-xl hover:shadow-sm">
             <img
                 src={country.flags.png}
                 alt={country.flags.alt ?? `Flag of ${country.name.common}`}
